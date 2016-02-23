@@ -1,0 +1,4 @@
+C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\BackgroundTasks\BackgroundTasks.csproj;x86
+C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\WeatherClient\WeatherClient.csproj;x86
+C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\WeatherClient\WeatherClient.csproj;x86
+C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\WeatherLockScreen\WeatherLockScreen.csproj;x86

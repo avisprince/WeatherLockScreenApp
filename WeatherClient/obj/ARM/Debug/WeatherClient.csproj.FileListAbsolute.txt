@@ -1,0 +1,17 @@
+C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\WeatherClient\bin\ARM\Debug\WeatherClient.dll
+C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\WeatherClient\bin\ARM\Debug\WeatherClient.pdb
+C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\WeatherClient\bin\ARM\Debug\WeatherClient.pri
+C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\WeatherClient\obj\ARM\Debug\WeatherClient.dll
+C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\WeatherClient\obj\ARM\Debug\WeatherClient.pdb
+C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\WeatherClient\obj\ARM\Debug\priconfig.xml
+C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\WeatherClient\obj\ARM\Debug\priconfig.xml.intermediate
+C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\WeatherClient\obj\ARM\Debug\layout.resfiles
+C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\WeatherClient\obj\ARM\Debug\layout.resfiles.intermediate
+C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\WeatherClient\obj\ARM\Debug\resources.resfiles
+C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\WeatherClient\obj\ARM\Debug\resources.resfiles.intermediate
+C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\WeatherClient\obj\ARM\Debug\pri.resfiles
+C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\WeatherClient\obj\ARM\Debug\pri.resfiles.intermediate
+C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\WeatherClient\obj\ARM\Debug\qualifiers.txt
+C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\WeatherClient\obj\ARM\Debug\qualifiers.txt.intermediate
+C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\WeatherClient\obj\ARM\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\WeatherClient\obj\ARM\Debug\WeatherClient.csprojResolveAssemblyReference.cache

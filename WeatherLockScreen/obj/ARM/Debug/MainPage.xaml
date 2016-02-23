@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="WeatherLockScreen.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WeatherLockScreen"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel Margin="10" MaxWidth="600">
+            <TextBlock>Message</TextBlock>
+            <TextBox x:ConnectionId='1' x:Name="Message"></TextBox>
+            <Button x:ConnectionId='2' x:Name="SendBadge"                        >Send Badge</Button>
+            <Button x:ConnectionId='3' x:Name="SendTile"                       >Send Tile</Button>
+            <TextBlock>Status</TextBlock>
+            <TextBlock x:ConnectionId='4' x:Name="Status"></TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>
+
