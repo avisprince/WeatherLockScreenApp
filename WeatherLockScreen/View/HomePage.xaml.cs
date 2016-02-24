@@ -1,8 +1,11 @@
 ﻿using System;
 using WeatherLockScreen.ViewModel;
 using Windows.ApplicationModel.Background;
+using Windows.Devices.Geolocation;
+using Windows.UI;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
+using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
 namespace WeatherLockScreen.View
@@ -20,6 +23,7 @@ namespace WeatherLockScreen.View
             this.DataContext = this.homePageViewModel;
 
             this.InitializeComponent();
+            this.GetWeatherButton.Background = new SolidColorBrush((Color)Application.Current.Resources["SystemAccentColor"]);
         }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
@@ -52,9 +56,24 @@ namespace WeatherLockScreen.View
 
         private async void GetWeatherButton_Click(object sender, RoutedEventArgs e)
         {
-            this.GetWeatherProgressBar.Visibility = Visibility.Visible;
-            await this.homePageViewModel.UpdateLockScreen();
-            this.GetWeatherProgressBar.Visibility = Visibility.Collapsed;
+            var accessStatus = await Geolocator.RequestAccessAsync();
+            if (accessStatus != GeolocationAccessStatus.Allowed)
+            {
+                //await this.TurnOnLocationDialog.ShowAsync();
+                this.TurnOnLocationPopup.Visibility = Visibility.Visible;
+                this.TurnOnLocationPopupButton.Background = new SolidColorBrush((Color)Application.Current.Resources["SystemAccentColor"]);
+            }
+            else
+            {
+                this.GetWeatherProgressBar.Visibility = Visibility.Visible;
+                await this.homePageViewModel.UpdateLockScreen();
+                this.GetWeatherProgressBar.Visibility = Visibility.Collapsed;
+            }
+        }
+
+        private void TurnOnLocationPopupButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.TurnOnLocationPopup.Visibility = Visibility.Collapsed;
         }
     }
 }

@@ -34,7 +34,7 @@ namespace WeatherLockScreen.ViewModel
         {
             this.Status = "Loading...";
             this.Forecast = await ForecastManager.UpdateForecast(true);
-            this.Status = "Completed";
+            this.Status = "Done! Go check your lock screen.";
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
