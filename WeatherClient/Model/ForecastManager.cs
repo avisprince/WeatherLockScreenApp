@@ -35,10 +35,7 @@ namespace WeatherClient.Model
                     Math.Abs(forecast.Latitude - latitude) > 0.5 ||
                     Math.Abs(forecast.Longitude - longitude) > 0.5)
                 {
-                    forecast = await ForecastClient.GetForecast(latitude, longitude);
-                    await DataManager.SaveForecast(forecast);
-
-                    return forecast;
+                    return await GetAndSaveForecast(latitude, longitude);
                 }
             }
 
@@ -48,10 +45,7 @@ namespace WeatherClient.Model
             var todaysForecastTime = ConvertUnixToDateTime(todaysForecast.Time);
             if (DateTime.Now.Day - todaysForecastTime.Day > 0)
             {
-                forecast = await ForecastClient.GetForecast(forecast.Latitude, forecast.Longitude);
-                await DataManager.SaveForecast(forecast);
-
-                return forecast;
+                return await GetAndSaveForecast(forecast.Latitude, forecast.Longitude);
             }
 
             // If the forecast is over an hour old, pop off the old forecast and get the next one
@@ -61,6 +55,11 @@ namespace WeatherClient.Model
             var hourDiff = DateTime.UtcNow.Hour - hourlyForecastTime.Hour;
             if (hourDiff > 0)
             {
+                if (hourDiff >= forecast.HourlyForecast.Forecast.Count)
+                {
+                    return await GetAndSaveForecast(forecast.Latitude, forecast.Longitude);
+                }
+
                 forecast.HourlyForecast.Forecast.RemoveRange(0, hourDiff);
                 await DataManager.SaveForecast(forecast);
             }
@@ -73,6 +72,14 @@ namespace WeatherClient.Model
             var accessStatus = await Geolocator.RequestAccessAsync();
             var geolocator = new Geolocator();
             return await geolocator.GetGeopositionAsync();
+        }
+
+        private static async Task<Forecast> GetAndSaveForecast(double latitude, double longitude)
+        {
+            var forecast = await ForecastClient.GetForecast(latitude, longitude);
+            await DataManager.SaveForecast(forecast);
+
+            return forecast;
         }
 
         private static DateTime ConvertUnixToDateTime(int unixTimeStamp)
