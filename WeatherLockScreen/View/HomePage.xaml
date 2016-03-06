@@ -47,11 +47,11 @@
             <StackPanel>
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                     <TextBlock FontSize="12" Text="Logo created by Ellie Gerber:" VerticalAlignment="Center" />
-                    <HyperlinkButton FontSize="12" NavigateUri="http://www.elliotgerber.com" Content="elliotgerber.com" Margin="10,0,0,0" />
+                    <HyperlinkButton FontSize="12" NavigateUri="http://www.elliotgerber.com" Content="elliotgerber.com" Margin="5,0,0,0" />
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                     <TextBlock FontSize="12" Text="Weather powered by:" VerticalAlignment="Center" />
-                    <HyperlinkButton FontSize="12" NavigateUri="http://www.forecast.io" Content="forecast.io" Margin="10,0,0,0" />
+                    <HyperlinkButton FontSize="12" NavigateUri="http://www.forecast.io" Content="forecast.io" Margin="5,0,0,0" />
                 </StackPanel>
             </StackPanel>
         </Grid>
