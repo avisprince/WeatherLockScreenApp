@@ -6,6 +6,7 @@ namespace WeatherClient.DataObjects
     [DataContract]
     public class Forecast
     {
+        [DataMember(Name = "lastUpdate")]
         public DateTime LastUpdate { get; set; }
 
         [DataMember(Name = "latitude")]
