@@ -1,4 +1,4 @@
-C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\BackgroundTasks\BackgroundTasks.csproj;arm
-C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\WeatherClient\WeatherClient.csproj;arm
-C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\WeatherClient\WeatherClient.csproj;arm
-C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\WeatherLockScreen\WeatherLockScreen.csproj;arm
+C:\Users\Avi\git\WeatherLockScreenApp\BackgroundTasks\BackgroundTasks.csproj;arm
+C:\Users\Avi\git\WeatherLockScreenApp\WeatherClient\WeatherClient.csproj;arm
+C:\Users\Avi\git\WeatherLockScreenApp\WeatherClient\WeatherClient.csproj;arm
+C:\Users\Avi\git\WeatherLockScreenApp\WeatherLockScreen\WeatherLockScreen.csproj;arm

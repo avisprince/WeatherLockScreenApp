@@ -20,3 +20,25 @@ C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\BackgroundT
 C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\BackgroundTasks\obj\ARM\Debug\qualifiers.txt
 C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\BackgroundTasks\obj\ARM\Debug\qualifiers.txt.intermediate
 C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\BackgroundTasks\obj\ARM\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Avi\git\WeatherLockScreenApp\BackgroundTasks\bin\ARM\Debug\BackgroundTasks.winmd
+C:\Users\Avi\git\WeatherLockScreenApp\BackgroundTasks\bin\ARM\Debug\BackgroundTasks.pdb
+C:\Users\Avi\git\WeatherLockScreenApp\BackgroundTasks\bin\ARM\Debug\BackgroundTasks.pri
+C:\Users\Avi\git\WeatherLockScreenApp\BackgroundTasks\bin\ARM\Debug\WeatherClient.dll
+C:\Users\Avi\git\WeatherLockScreenApp\BackgroundTasks\bin\ARM\Debug\WeatherClient.pdb
+C:\Users\Avi\git\WeatherLockScreenApp\BackgroundTasks\bin\ARM\Debug\WeatherClient.pri
+C:\Users\Avi\git\WeatherLockScreenApp\BackgroundTasks\obj\ARM\Debug\BackgroundTasks.csprojResolveAssemblyReference.cache
+C:\Users\Avi\git\WeatherLockScreenApp\BackgroundTasks\obj\ARM\Debug\BackgroundTasks.winmd
+C:\Users\Avi\git\WeatherLockScreenApp\BackgroundTasks\obj\ARM\Debug\BackgroundTasks.pdb
+C:\Users\Avi\git\WeatherLockScreenApp\BackgroundTasks\obj\ARM\Debug\BackgroundTasks.winmdobj
+C:\Users\Avi\git\WeatherLockScreenApp\BackgroundTasks\obj\ARM\Debug\BackgroundTasks.compile.pdb
+C:\Users\Avi\git\WeatherLockScreenApp\BackgroundTasks\obj\ARM\Debug\priconfig.xml
+C:\Users\Avi\git\WeatherLockScreenApp\BackgroundTasks\obj\ARM\Debug\priconfig.xml.intermediate
+C:\Users\Avi\git\WeatherLockScreenApp\BackgroundTasks\obj\ARM\Debug\layout.resfiles
+C:\Users\Avi\git\WeatherLockScreenApp\BackgroundTasks\obj\ARM\Debug\layout.resfiles.intermediate
+C:\Users\Avi\git\WeatherLockScreenApp\BackgroundTasks\obj\ARM\Debug\resources.resfiles
+C:\Users\Avi\git\WeatherLockScreenApp\BackgroundTasks\obj\ARM\Debug\resources.resfiles.intermediate
+C:\Users\Avi\git\WeatherLockScreenApp\BackgroundTasks\obj\ARM\Debug\pri.resfiles
+C:\Users\Avi\git\WeatherLockScreenApp\BackgroundTasks\obj\ARM\Debug\pri.resfiles.intermediate
+C:\Users\Avi\git\WeatherLockScreenApp\BackgroundTasks\obj\ARM\Debug\qualifiers.txt
+C:\Users\Avi\git\WeatherLockScreenApp\BackgroundTasks\obj\ARM\Debug\qualifiers.txt.intermediate
+C:\Users\Avi\git\WeatherLockScreenApp\BackgroundTasks\obj\ARM\Debug\MultipleQualifiersPerDimensionFound.txt

@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using System.Net;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
@@ -25,6 +26,7 @@ namespace WeatherClient.Model
             using (var sr = new StreamReader(response.GetResponseStream()))
             {
                 var forecast = JsonConvert.DeserializeObject<Forecast>(sr.ReadToEnd());
+                forecast.LastUpdate = DateTime.Now;
                 forecast.Latitude = latitude;
                 forecast.Longitude = longitude;
 

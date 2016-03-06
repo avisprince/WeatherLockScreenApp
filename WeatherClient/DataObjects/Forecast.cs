@@ -1,10 +1,13 @@
-﻿using System.Runtime.Serialization;
+﻿using System;
+using System.Runtime.Serialization;
 
 namespace WeatherClient.DataObjects
 {
     [DataContract]
     public class Forecast
     {
+        public DateTime LastUpdate { get; set; }
+
         [DataMember(Name = "latitude")]
         public double Latitude { get; set; }
 

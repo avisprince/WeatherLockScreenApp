@@ -15,13 +15,18 @@ namespace WeatherClient.Model
         private const string fileName = "forecast.txt";
 
         /// <summary>
+        /// The local folder
+        /// </summary>
+        private static StorageFolder localFolder = ApplicationData.Current.LocalFolder;
+
+        /// <summary>
         /// Save the forecast to disk
         /// </summary>
         /// <param name="forecast">The forecast to save</param>
         /// <returns></returns>
         public static async Task SaveForecast(Forecast forecast)
         {
-            var saveFile = await ApplicationData.Current.LocalFolder.CreateFileAsync(fileName, CreationCollisionOption.ReplaceExisting);
+            var saveFile = await localFolder.CreateFileAsync(fileName, CreationCollisionOption.ReplaceExisting);
 
             using (var stream = await saveFile.OpenStreamForWriteAsync())
             {
@@ -38,8 +43,13 @@ namespace WeatherClient.Model
         /// <returns>The saved forecast</returns>
         public static async Task<Forecast> LoadForecast()
         {
-            var stream = await ApplicationData.Current.LocalFolder.OpenStreamForReadAsync(fileName);
-            
+            if (await localFolder.TryGetItemAsync(fileName) == null)
+            {
+                return null;
+            }
+
+            var stream = await localFolder.OpenStreamForReadAsync(fileName);
+
             var serializer = new DataContractSerializer(typeof(Forecast));
             return (Forecast)serializer.ReadObject(stream);
         }

@@ -20,7 +20,7 @@ namespace WeatherClient.Model
             var highTemp = Convert.ToInt32(todaysForecast.MaxTemperature).ToString() + degree;
             var lowTemp = Convert.ToInt32(todaysForecast.MinTemperature).ToString() + degree;
 
-            string line1 = "Right now: " + currentTemp + ". Feels like " + feelsLike + ". " + currentHour.Summary + ".";
+            string line1 = "Right now: " + currentTemp + ". Feels like: " + feelsLike + ". " + currentHour.Summary + ".";
             string line2 = "High of " + highTemp + ". Low of " + lowTemp + ". Updated: " + DateTime.Now.ToString("h:mm tt");
             string line3 = todaysForecast.Summary;
 
@@ -37,11 +37,11 @@ namespace WeatherClient.Model
                             "<text id=\"2\">{1}</text>" +
                             "<text id=\"3\">{2}</text>" +
                         "</binding>" +
-                        "<binding template=\"TileSquareText03\">" +
-                            "<text id=\"1\">{0}</text>" +
-                            "<text id=\"2\">{1}</text>" +
-                            "<text id=\"3\">{2}</text>" +
-                        "</binding>" +
+                        //"<binding template=\"TileSquareText03\">" +
+                        //    "<text id=\"1\">{0}</text>" +
+                        //    "<text id=\"2\">{1}</text>" +
+                        //    "<text id=\"3\">{2}</text>" +
+                        //"</binding>" +
                     "</visual>" +
                 "</tile>",
                 line1, line2, line3);

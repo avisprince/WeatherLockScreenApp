@@ -11,7 +11,7 @@ namespace WeatherClient.Model
         public static async Task<Forecast> UpdateForecast(bool updateGeoposition)
         {
             var forecast = await GetForecast(updateGeoposition);
-            
+
             LockScreenClient.SetLockScreenText(forecast);
 
             return forecast;
@@ -23,14 +23,14 @@ namespace WeatherClient.Model
 
             // If the forecast cannot be loaded, make a web api call
             // If a request for an update is made, check the position first before making another web api call
-            // Should notify user in lock screen that location must be on
             if (forecast == null || updateGeoposition)
             {
                 var pos = await GetGeoposition();
                 var latitude = pos.Coordinate.Latitude;
                 var longitude = pos.Coordinate.Longitude;
 
-                if (forecast == null || 
+                if (forecast == null ||
+                    (DateTime.Now - forecast.LastUpdate).TotalHours > 1 ||
                     forecast.HourlyForecast.Forecast.Count == 0 ||
                     Math.Abs(forecast.Latitude - latitude) > 0.5 ||
                     Math.Abs(forecast.Longitude - longitude) > 0.5)

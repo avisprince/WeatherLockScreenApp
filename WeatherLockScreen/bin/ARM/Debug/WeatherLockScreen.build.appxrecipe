@@ -9,16 +9,16 @@
     <SolutionConfiguration>Debug|ARM</SolutionConfiguration>
     <PackageArchitecture>arm</PackageArchitecture>
     <PackageIdentityName>f15c30a6-647f-4f15-a651-0ced9d556773</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\WeatherLockScreen\obj\ARM\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Avi\git\WeatherLockScreenApp\WeatherLockScreen\obj\ARM\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\WeatherLockScreen\bin\ARM\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Avi\git\WeatherLockScreenApp\WeatherLockScreen\bin\ARM\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\WeatherLockScreen\bin\ARM\Debug\WeatherLockScreen.exe">
+    <AppxPackagedFile Include="C:\Users\Avi\git\WeatherLockScreenApp\WeatherLockScreen\bin\ARM\Debug\WeatherLockScreen.exe">
       <PackagePath>entrypoint\WeatherLockScreen.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Avi\.nuget\packages\Microsoft.ApplicationInsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
@@ -342,56 +342,59 @@
     <AppxPackagedFile Include="C:\Users\Avi\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\WeatherClient\bin\ARM\Debug\WeatherClient.dll">
+    <AppxPackagedFile Include="C:\Users\Avi\git\WeatherLockScreenApp\WeatherClient\bin\ARM\Debug\WeatherClient.dll">
       <PackagePath>WeatherClient.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\BackgroundTasks\bin\ARM\Debug\BackgroundTasks.winmd">
+    <AppxPackagedFile Include="C:\Users\Avi\git\WeatherLockScreenApp\BackgroundTasks\bin\ARM\Debug\BackgroundTasks.winmd">
       <PackagePath>BackgroundTasks.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\WeatherLockScreen\ApplicationInsights.config">
+    <AppxPackagedFile Include="C:\Users\Avi\git\WeatherLockScreenApp\WeatherLockScreen\ApplicationInsights.config">
       <PackagePath>ApplicationInsights.config</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\WeatherLockScreen\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Avi\git\WeatherLockScreenApp\WeatherLockScreen\Assets\WeatherWidgetLogo.png">
+      <PackagePath>Assets\WeatherWidgetLogo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\WeatherLockScreen\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Avi\git\WeatherLockScreenApp\WeatherLockScreen\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\WeatherLockScreen\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Avi\git\WeatherLockScreenApp\WeatherLockScreen\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\WeatherLockScreen\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Avi\git\WeatherLockScreenApp\WeatherLockScreen\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\WeatherLockScreen\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Avi\git\WeatherLockScreenApp\WeatherLockScreen\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\WeatherLockScreen\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Avi\git\WeatherLockScreenApp\WeatherLockScreen\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\WeatherLockScreen\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Avi\git\WeatherLockScreenApp\WeatherLockScreen\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\WeatherLockScreen\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Avi\git\WeatherLockScreenApp\WeatherLockScreen\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\WeatherLockScreen\bin\ARM\Debug\WeatherLockScreen.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Avi\git\WeatherLockScreenApp\WeatherLockScreen\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Avi\git\WeatherLockScreenApp\WeatherLockScreen\bin\ARM\Debug\WeatherLockScreen.xr.xml">
       <PackagePath>WeatherLockScreen.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\WeatherLockScreen\bin\ARM\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Avi\git\WeatherLockScreenApp\WeatherLockScreen\bin\ARM\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Avi\Documents\Visual Studio 2015\Projects\WeatherLockScreen\WeatherLockScreen\bin\ARM\Debug\Core\WeatherLockScreen.exe">
+    <AppxPackagedFile Include="C:\Users\Avi\git\WeatherLockScreenApp\WeatherLockScreen\bin\ARM\Debug\Core\WeatherLockScreen.exe">
       <PackagePath>WeatherLockScreen.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

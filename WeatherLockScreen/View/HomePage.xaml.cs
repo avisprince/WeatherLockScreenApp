@@ -30,7 +30,7 @@ namespace WeatherLockScreen.View
         {
             this.RegisterBackgroundTask();
         }
-        
+
         private async void RegisterBackgroundTask()
         {
             var backgroundAccessStatus = await BackgroundExecutionManager.RequestAccessAsync();
@@ -59,7 +59,6 @@ namespace WeatherLockScreen.View
             var accessStatus = await Geolocator.RequestAccessAsync();
             if (accessStatus != GeolocationAccessStatus.Allowed)
             {
-                //await this.TurnOnLocationDialog.ShowAsync();
                 this.TurnOnLocationPopup.Visibility = Visibility.Visible;
                 this.TurnOnLocationPopupButton.Background = new SolidColorBrush((Color)Application.Current.Resources["SystemAccentColor"]);
             }
@@ -67,6 +66,7 @@ namespace WeatherLockScreen.View
             {
                 this.GetWeatherProgressBar.Visibility = Visibility.Visible;
                 await this.homePageViewModel.UpdateLockScreen();
+                this.LockScreenSettingsLink.Visibility = Visibility.Visible;
                 this.GetWeatherProgressBar.Visibility = Visibility.Collapsed;
             }
         }
